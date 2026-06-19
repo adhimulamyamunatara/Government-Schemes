@@ -309,6 +309,8 @@ For support, open an issue in the repository or contact:
 ---
 
 **Version**: 1.1.0
-**Last Updated**: October 2025
+**Last Updated**: JUNE 2026
+
+Project maintained by Adhimulam Yamuna Tara.
 
 ---
