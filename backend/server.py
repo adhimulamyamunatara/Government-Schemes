@@ -159,6 +159,64 @@ def normalize_faqs(resp):
 # API ENDPOINTS
 # ===============================
 
+
+# ===============================
+# API ENDPOINTS
+# ===============================
+
+@app.route('/', methods=['GET'])
+def api_home():
+    """Show available API routes"""
+
+    return jsonify({
+        "project": "Community Service Project - Govt Schemes Backend",
+        "status": "running",
+        "version": "1.0",
+
+        "available_routes": [
+
+            {
+                "method": "GET",
+                "endpoint": "/health",
+                "description": "Check backend health status"
+            },
+
+            {
+                "method": "GET",
+                "endpoint": "/api/schemes",
+                "description": "Fetch list of government scheme slugs",
+                "example":
+                    "/api/schemes?from_index=0&size=10"
+            },
+
+            {
+                "method": "GET",
+                "endpoint": "/api/scheme/<slug>",
+                "description": "Fetch complete details of one scheme",
+                "example":
+                    "/api/scheme/pm-kisan"
+            },
+
+            {
+                "method": "POST",
+                "endpoint": "/api/schemes/batch",
+                "description": "Fetch multiple schemes at once",
+                "body": {
+                    "slugs": [
+                        "pm-kisan",
+                        "pmkvy-stt"
+                    ]
+                }
+            }
+        ],
+
+        "message":
+            "Welcome to MyScheme Backend API"
+    })
+
+
+
+
 @app.route('/health', methods=['GET'])
 def health_check():
     """Health check endpoint"""
