@@ -9,7 +9,7 @@ A comprehensive Flutter-based mobile application designed to help Indian citizen
 ## 📌 Project Overview
 
 The **MyScheme App** addresses key challenges such as lack of awareness, language barriers, and complex application processes associated with government welfare schemes.
-The application was **tested within the Nambur community, Guntur District, Andhra Pradesh**, and demonstrated improved accessibility and awareness of welfare programs.
+The application was **tested within the state of  Andhra Pradesh**, and demonstrated improved accessibility and awareness of welfare programs.
 
 ---
 
@@ -265,14 +265,12 @@ CORS proxies are preconfigured for API calls.
 
 ## 🏫 Academic Details
 
-* **Institution**: Vasireddy Venkatadri Institute of Technology (VVIT), Nambur
-* **Duration**: July 2025 – November 2025
+* **Institution**: Vignan's Nirula Institute of Technology & Science for Women, Peda Palakaluru, Guntur.
+* **Duration**: May 2025 – June 2026
 * **Project Guide**:
-  **Dr. T. Kameswara Rao**
-  Professor, CSE (AI & ML), VVIT
-* **Project Coordinator**:
-  **Mohammad Sayeed**
-  Assistant Professor, CSE (AI & ML), VVIT
+  **Dr. Silpa Chaitanya**
+  Assistant Professor, CSE (AI & ML), VNITSW
+
 
 ---
 
